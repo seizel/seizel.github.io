@@ -111,7 +111,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'retro',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -126,11 +126,10 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'night',
       'halloween',
       'luxury',
-      'coffee',
+      'retro',
     ],
 
     // Custom theme
