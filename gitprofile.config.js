@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'seizel', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,43 +11,35 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'bima-faiq-azzela',
+    twitter: 'BimaF5',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'bimafaiq01@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
     'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Blender 3D',
+    'C#',
+    'Unity',
+    'Photoshop'
   ],
-  experiences: [
+  /*experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -62,32 +54,33 @@ const config = {
       to: 'August 2021',
       companyLink: 'https://example.com',
     },
-  ],
-  /* certifications: [
+  ],*/
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Microsoft Technology Associate',
+      body: 'Software Development Fundamental',
+      year: 'January 2022',
+      link: 'shorturl.at/tvG37'
     },
-  ], */
+    {
+      name: 'Fresh Graduate Academy',
+      body: '3D Game Art',
+      year: '30 May - 30 june 2022',
+      link: 'shorturl.at/fCKPT'
+    },
+  ],
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'Dinamika Bangsa University',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2018',
+      to: '2022',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+
   ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
+  /*externalProjects: [
     {
       title: 'Project Name',
       description:
@@ -102,8 +95,8 @@ const config = {
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
-  ],
-  // Display blog posts from your medium or dev account. (Optional)
+  ],*/
+  /* Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
@@ -111,14 +104,14 @@ const config = {
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+  },*/
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'retro',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -129,40 +122,15 @@ const config = {
     respectPrefersColorScheme: false,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: false,
+    hideAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
       'night',
+      'halloween',
+      'luxury',
       'coffee',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
