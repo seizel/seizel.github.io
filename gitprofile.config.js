@@ -122,7 +122,7 @@ const config = {
     respectPrefersColorScheme: false,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: true,
+    hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
@@ -130,6 +130,7 @@ const config = {
       'halloween',
       'luxury',
       'retro',
+      'winter',
     ],
 
     // Custom theme
